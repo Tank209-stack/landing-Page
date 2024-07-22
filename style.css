@@ -9,6 +9,8 @@ html,body{
 }
 #first-section{
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
 }
 .header > img {
     height: 100px;
@@ -16,6 +18,7 @@ html,body{
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    padding-top: 5px;
 }
 ul{
     display: flex;
@@ -31,4 +34,36 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.left{
+    font-size: 48px;
+    font-weight:900;
+    color: #f9f8fa;
+    padding-right: 200px;
+}
+.left > p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.right > img{
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.under-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+    flex-shrink: 1;
+}
+#container{
+    width:70% ;
+}
+.left > button{
+    background-color: #3882f6;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color:#e5e7eb
 }
