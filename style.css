@@ -101,8 +101,7 @@ li{
 }
 .text{
     font-size: 36px;
-    font-weight: 300;
-    font-style: italics;
+    font-style: italic;
 }
 .tain{
     width: 50%;
@@ -112,4 +111,36 @@ li{
     font-size: 20px;
     text-align: right;
     margin:20px;
+}
+ /* fourth scetion */
+ .sign-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+ }
+.blue{
+    background-color: #3882f6;
+    width: 50%;;
+    color: #e5e7eb;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blue > button{
+    background-color: #3882f6;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    color: #e5e7eb;
+}
+.sign-bold{
+    font-weight: 900;
+}
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 30px;
 }
